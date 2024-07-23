@@ -12,46 +12,78 @@
     <header>
         <div class="first-row">
 
-        <div class="logo">E Commerce</div>
+            <div class="logo">E Commerce</div>
 
-        <div class="search"> 
+            <div class="search"> 
 
-            <div class="dropdown-btn">
-                <label for="dropdown">All Categories</label>
-                <img src="images/downarrow.png" alt="">
-                <select id="dropdown" name="dropdown">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
+                <div class="dropdown-btn">
+                    <label for="dropdown">All Categories</label>
+                    <img src="images/downarrow.png" alt="">
+                    <select id="dropdown" name="dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                
+
+                <div class="search-bar">
+                    <!-- <label for="search">Search</label> -->
+                    <input class="search-text" type="text" id="search" name="search" placeholder="Search anything">
+
+                    <img class="search-icon" src="images/Search_alt_duotone_line.png" alt="">
+                </div>
+
             </div>
-            
 
-            <div class="search-bar">
-                <!-- <label for="search">Search</label> -->
-                <input class="search-text" type="text" id="search" name="search" placeholder="Search anything">
+            <div class="user">
+                <div class="help">
+                    Help
+                </div>
 
-                <img class="search-icon" src="images/Search_alt_duotone_line.png" alt="">
+                <div class="account">
+                    <img class="account-img" src="images/User.png" alt="">
+                    <p>Account</p>
+                </div>
+                
+                <div class="shopping">
+                    <div class="cart-count">16</div>
+                    <img class="shopping-img" src="images/Bag_alt.png" alt="">
+                    <p>Shopping</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-second-row">
+
+            <div class="items-icon">
+                <img src="images/items.png" alt="">
             </div>
 
-        </div>
+            <div class="mini-search"> 
 
-        <div class="help">
-            Help
-        </div>
+                <div class="dropdown-btn">
+                    <label for="dropdown">All Categories</label>
+                    <img src="images/downarrow.png" alt="">
+                    <select id="dropdown" name="dropdown">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                
 
-        <div class="account">
-            <img class="account-img" src="images/User.png" alt="">
-            Account
+                <div class="search-bar">
+                    <!-- <label for="search">Search</label> -->
+                    <input class="search-text" type="text" id="search" name="search" placeholder="Search anything">
+
+                    <img class="search-icon" src="images/Search_alt_duotone_line.png" alt="">
+                </div>
+
+            </div>
         </div>
-        
-        <div class="shopping">
-            <div class="cart-count">16</div>
-            <img class="shopping-img" src="images/Bag_alt.png" alt="">
-            Shopping
-        </div>
-    </div>
 
         <div class="items">
             <p>Jewelry & Accessories</p>
@@ -70,6 +102,7 @@
 
     <section>
         <div class="content">
+
             <div class="section-row">
                 <div class="section-row-item">
                     <img class="section-img" src="images/section1.png" alt="">
@@ -84,6 +117,7 @@
                     <p class="section-row-name">Art & Collectibles</p>
                 </div>
             </div>
+      
 
 
             <div class="product-row">
@@ -545,7 +579,7 @@
             </div>
 
             <div class="subscription-box">
-                <p>Yes!</p>
+                <h4>Yes!</h4>
                 <p>Send me exclusive offers, unique gift ideas, and personalized tips for shopping and selling on Commerce.</p>
                 <div class="subscribe-mail">
                     <form action="">
@@ -557,14 +591,14 @@
                         
                     </form>
                 </div>
-                <a href="">First order only. You’re ready?</a>
+                <a href="">First order only. You're ready?</a>
             </div>
 
         </div>
     </section>
     
     <div class="info-text">
-        Commerce, is powered by 100% renewable electricity.
+        <p>Commerce, is powered by 100% renewable electricity.</p>
     </div>
 
     <footer>
@@ -595,44 +629,89 @@
             <div class="links">
 
                 <div class="link-section">
-                    <h3>Shop</h3>
-                    <a href="">Gift cards</a>
-                    <a href="">Site map</a>
-                    <a href="">Polka blog</a>
-                    <a href="">Login</a>
-                    <a href="">Sign in</a>
+                    <div class="link-heading" >
+                        <h3 >Shop</h3>
+                        <img src="images/Expand_downlight.png" alt="">
+                    </div>
+                    
+                    <div class="link-dropdown not-active-link">
+                        <a href="">Gift cards</a>
+                        <a href="">Site map</a>
+                        <a href="">Polka blog</a>
+                        <a href="">Login</a>
+                        <a href="">Sign in</a>
+                    </div>
+                    
                 </div>
 
                 <div class="link-section">
-                    <h3>Sell</h3>
-                    <a href="">Sell on Polka</a>
-                    <a href="">Teams</a>
-                    <a href="">Forums</a>
-                    <a href="">Affiliates</a>
+                    <div class="link-heading ">
+                        <h3>Sell</h3>
+                        <img src="images/Expand_downlight.png" alt="">
+                    </div>
+                        
+                    <div class="link-dropdown not-active-link">
+                        <a href="">Sell on Polka</a>
+                        <a href="">Teams</a>
+                        <a href="">Forums</a>
+                        <a href="">Affiliates</a>
+                    </div>
                 </div>
 
                 <div class="link-section">
-                    <h3>About</h3>
-                    <a href="">Polka, Inc.</a>
-                    <a href="">Policies</a>
-                    <a href="">PInvestors</a>
-                    <a href="">Careers</a>
-                    <a href="">Press</a>
+                    <div class="link-heading active-link">
+                        <h3>About</h3>
+                        <img src="images/Expand_down.png" alt="">
+                    </div>
+                            
+                    <div class="link-dropdown ">
+                        <a href="">Polka, Inc.</a>
+                        <a href="">Policies</a>
+                        <a href="">PInvestors</a>
+                        <a href="">Careers</a>
+                        <a href="">Press</a>
+                    </div>
                 </div>
 
                 <div class="link-section">
-                    <h3>Help</h3>
-                    <a href="">Help Center</a>
-                    <a href="">Trust and safety</a>
-                    <a href="">Privacy settings</a>
+                    <div class="link-heading ">
+                        <h3>Help</h3>
+                        <img src="images/Expand_downlight.png" alt="">
+                    </div>
+                            
+                    <div class="link-dropdown not-active-link">
+                        <a href="">Help Center</a>
+                        <a href="">Trust and safety</a>
+                        <a href="">Privacy settings</a>
+                    </div>
                 </div>
 
+            </div>
+
+            <div class="social-links-mobile">
+                <a href="">
+                    <img src="images/facebook.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/twitter.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/linkedin.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/dribbble.png" alt="">
+                </a>
             </div>
         </div>
 
         <div class="end-footer">
+
+            
+
             <div class="copyright">
-                © 2022 Commerce, Inc.
+                <p>
+                    © 2022 Commerce, Inc.
+                </p>
             </div>
 
             <div class="end-links">
